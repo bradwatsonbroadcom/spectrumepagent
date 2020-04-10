@@ -1,4 +1,4 @@
-# spectrumepagent
+# CA APM Spectrum EPAgent Device Health Plugin
 
 This is an EPAgent plugin for CA APM to pull CA Spectrum device health into CA APM. The plugin connects to the Spectrum REST API and searches for the devices that belong to a specified Global Collection. It will then loop through the devices listed in the Global Collection and against call the Spectrum REST API to get the health status of the device.
 
